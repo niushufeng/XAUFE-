@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper,openany,oneside]{book}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{xcolor} % 声明颜色包
+\definecolor{orange}{cmyk}{0.85, 0.21, 0.96,0.0}
+%85,21,96,0;0,100,100,0
+% \color{orange}{text}
+\newfontfamily{\kaiti}{楷体}
+\newfontfamily{\song}{仿宋}
+\newfontfamily{\tnr}{Times New Roman}
+
+\begin{document}
+
+  \begin{tikzpicture}
+    \draw[color = orange,line width=0.08cm] (0,0) circle (2cm);
+    \draw[color = orange,line width=0.03cm] (0,0) circle (1.5cm);
+    \draw[color = white,line width=0.05cm] (0,0) circle (1.4cm);
+    \fill[orange] (0,0) circle (1.4cm);
+    \fill[orange] (0,0) circle (0.9cm);
+    % \draw[line width=0.05cm] (0,0) circle (0.9cm);
+    \draw[color = white,line width=0.02cm] (0,0) circle (1.4cm and 0.6cm);
+    \draw[color = white,line width=0.02cm] (0,0) circle (1.4cm and 1.1cm);
+    \draw[color = white,line width=0.02cm] (0,0) circle (0.6cm and 1.4cm);
+    \draw[color = white,line width=0.02cm] (0,0) circle (1.1cm and 1.4cm);
+    \draw[color = white,line width=0.02cm] (0,-1.4cm) to (0,1.4cm);
+    \draw[color = white,line width=0.02cm] (-1.4cm,0) to (1.4cm,0);
+    
+    % \fill[black] (-0.5,-0.73) .. controls (-0.35,-0.81) ..
+    % (-0.2,-0.8)  .. controls (0.15, -0.7) and (0.20,-0.60) .. 
+    % (0.35,-0.35)   .. controls (0.42, -0.24) and (0.6,-0.26) ..
+    % (0.6,-0.4)   .. controls (0.58,-0.50) and (0.49, -0.50) ..
+    % (0.45,-0.45) .. controls (0.4,-0.68) and (0.75, -0.7) ..
+    % (0.9,0) arc (360:250:0.9cm);
+    % \fill (-0.4,-0.4)--(-1.33,-0.4)--(1,1.1)--cycle;
+    % \fill (-0.37,-0.43)--(-0.2,-0.8)--(1.01,1.05)--cycle;
+
+    % \fill[black] (-1.41 ,-1.41 ) arc (220:320:1.8cm);
+    % \fill (-0.4,-0.4)--(-0.4,-1.33)--(-1.33,-1.33)--(-1.33,-0.4)--(-0.4,-0.4);
+
+    \draw[fill={orange},draw={orange}] {(269:1.9)	arc (269:269+10*0.2:1.9)} --
+     (271:2)	arc (271:271-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(276:1.9)	arc (276:276+10*0.2:1.9)} --
+     (278:2)	arc (278:278-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(283:1.9)	arc (283:283+10*0.2:1.9)} --
+     (285:2)	arc (285:285-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(290:1.9)	arc (290:290+10*0.2:1.9)} --
+     (292:2)	arc (292:292-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(297:1.9)	arc (297:297+10*0.2:1.9)} --
+     (299:2)	arc (299:299-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(304:1.9)	arc (304:304+10*0.2:1.9)} --
+     (306:2)	arc (306:306-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(311:1.9)	arc (311:311+10*0.2:1.9)} --
+     (313:2)	arc (313:313-10*0.2:2) -- cycle;
+
+     \draw[fill={orange},draw={orange}] {(262:1.9)	arc (262:262+10*0.2:1.9)} --
+     (264:2)	arc (264:264-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(255:1.9)	arc (255:255+10*0.2:1.9)} --
+     (257:2)	arc (257:257-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(248:1.9)	arc (248:248+10*0.2:1.9)} --
+     (250:2)	arc (250:250-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(241:1.9)	arc (241:241+10*0.2:1.9)} --
+     (243:2)	arc (243:243-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(234:1.9)	arc (234:234+10*0.2:1.9)} --
+     (236:2)	arc (236:236-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(227:1.9)	arc (227:227+10*0.2:1.9)} --
+     (229:2)	arc (229:229-10*0.2:2) -- cycle;
+     \draw[fill={orange},draw={orange}] {(220:1.9)	arc (220:220+10*0.2:1.9)} --
+     (222:2)	arc (222:222-10*0.2:2) -- cycle;
+    % \foreach \x/\txt in {2/XIAN,4/~,6/UNIVERSITY,8/~,10/OF,5/~,6/FIANCE,7/~,8/AND,9/~,10/ECPNOMOCS}
+    
+    % \foreach \x/\txt in {0/\textbf{X},1/\textbf{I},2/${'}$,3/\textbf{A},4/\textbf{N},5/~,6/U,
+    % 7/N,8/I,9/V,10/E,11/R,12/S,13/I,14/T,
+    % 15/Y,16/~,17/O,18/F,19/~,20/F,21/I,22/N,
+    % 23/A,24/N,25/C,26/E,27/~,28/A,29/N,
+    % 30/D,31/~,32/E,33/C,34/O,35/N,36/O,37/M,38/I,39/C,40/S}
+    \foreach \x/\txt in {0/\textbf{X},1/\textbf{I},2/${'}$,3/\textbf{A},4/\textbf{N},
+    5/~,6/\textbf{U},7/\textbf{N},8/\textbf{I},9/\textbf{V},10/\textbf{E},
+    11/\textbf{R},12/\textbf{S},13/\textbf{I},14/\textbf{T},
+    15/\textbf{Y},16/~,17/\textbf{O},18/\textbf{F},19/\kern -100em,20/\textbf{F},21/\textbf{I},22/\textbf{N},
+    23/\textbf{A},24/\textbf{N},25/\textbf{C},26/\textbf{E},27/~,28/\textbf{A},29/\textbf{N},
+    30/\textbf{D},31/~,32/\textbf{E},33.1/\textbf{C},34.2/\textbf{O},35.3/\textbf{N},
+    36.4/\textbf{O},37.6/\textbf{M},38.7/\textbf{I},39.8/\textbf{C},40.9/\textbf{S}}
+    {
+      \node[orange,scale=0.4,rotate=\x*-4.1-275] at (175+\x*-4.1:1.7cm) {\tnr\txt};
+    };%
+    \foreach \x/\txt in {0/西,1/安,2/财,3/经,4/大,5/学}
+    {
+      \node[orange,scale=0.75,rotate=\x*18-50] at (225+\x*18:1.72cm) {\kaiti\txt};
+    };
+    % \foreach \x/\txt in {0/1,1/9,2/5,3/2}
+    % {
+    %   
+    % };
+    \foreach \x/\txt in {0/1952}%\bfseries
+    {
+      \node[white] at (\x*18-90:0.9cm) {\tnr\txt};
+    };
+    \foreach \x/\txt in {0/\textbf{\emph{XUFE}}}
+    {
+      \node[white,scale=1.95] at (\x*10-90:0.0cm) {\txt};
+    };
+  
+  \end{tikzpicture}
+
+  \end{document}
